@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../node_modules/w3-css/3/w3.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+<body class="w3-container w3-padding mais-espaco">
+    
+    <header class="w3-green w3-padding w3-round">
+        <h1 class="w3-center">Departamento Administrativo</h1>
+    </header>
+    <div>
+        <h2>Gerenciamento de Clientes</h2>
+        <form action="" method="POST">   
+            <label for="pesquisa">Tipo de pesquisa:</label>
+            <select required>
+                <option value="alfabetica">Ordem alfabética</option>
+                <option value="datacadastro">Data de cadastro</option>
+            </select>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="cpf">CPF/CNPJ:</label>
+            <input type="number" name="cpf" id="telefone" required>
+
+            <label for="cep">CEP:</label>
+            <input type="number" name="cep" id="cep" required>
+
+            <label for="cidade">Cidade</label>
+            <select>
+                <option value="cidade">Porto Alegre</option>
+                <option value="cidade">Alvorada</option>
+            </select>
+            <input type="submit" value="Pesquisar">
+        </form>
+
+        <table class="w3-table-all">
+            <tr class="w3-green">
+                <td>Código</td>
+                <td>Nome</td>
+                <td>Telefone</td>
+                <td>CPF/CNPJ</td>
+                <td>Data de Cadastro</td>
+                <td>Atualizar</td>
+                <td>Deletar</td>
+            </tr>
+            <tr>
+                <td>321312</td>
+                <td>dsadas</td>
+                <td>4112421</td>
+                <td>42412</td>
+                <td>05/02/5010</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>321312</td>
+                <td>dsadas</td>
+                <td>4112421</td>
+                <td>42412</td>
+                <td>05/02/5010</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>321312</td>
+                <td>dsadas</td>
+                <td>4112421</td>
+                <td>42412</td>
+                <td>05/02/5010</td>
+                <td><input type="checkbox"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
